@@ -1,0 +1,142 @@
+
+body {
+    background:black;
+    color: #cccccc;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85));
+    padding: 40px 20px;
+    border-bottom: 2px solid #e70f0f;
+}
+
+header h1 {
+    font-size: 5rem;
+    margin: 0;
+    letter-spacing: 5px;
+    color: #e70f0f;
+    text-shadow: 2px 2px #000;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border: 5px solid #e70f0f;
+    box-shadow: 0 0 30px #e70f0f66;
+}
+
+section {
+    margin: 60px auto;
+    max-width: 800px;
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 30px 30px 50px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #e70f0f33;
+    position: relative;
+    border: 3px solid #e70f0f;
+    
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #e70f0f;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e70f0f;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #cccccc;
+}
+
+strong {
+    color: #e70f0f;
+}
+
+.video-container {
+    aspect-ratio: 16 / 9;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    margin-top: 20px;
+    padding-bottom: 60%;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #e70f0f;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+li a {
+    background-color: #e70f0f;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+    box-shadow: 0 0 10px #e70f0f44;
+}
+
+li a:hover {
+    background-color: #ffcc00;
+    color: black;
+    box-shadow: 0 0 15px #ffcc0044;
+}
+
+.back-to-top {
+    display: inline-block;
+    margin: 40px auto 20px auto;
+    background-color: #ffcc00;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 0 10px #e70f0f88;
+    transition: all 0.3s ease;
+}
+
+.back-to-top:hover {
+    background-color: #00ff2f;
+    color: black;
+    opacity: 1;
+}
+
+footer {
+    background-color: black;
+    color: #e70f0f;
+    height: 60px;
+    line-height: 60px;
+    font-size: 1rem;
+    margin-top: 60px;
+    border-top: 1px solid #e70f0f;
+}
