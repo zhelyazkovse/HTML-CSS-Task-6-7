@@ -56,12 +56,16 @@ h2 {
 
 p {
     font-size: 1.2rem;
-    line-height: 1.6;
-    color: #cccccc;
+    line-height: 1.8;
+    color: #dddddd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
 }
 
 strong {
-    color: #e70f0f;
+    color: #ff5252;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .video-container {
